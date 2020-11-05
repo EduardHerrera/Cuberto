@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    /* font */
+    font-family: "Averta CY", sans-serif;
+    }
+    body {
+    margin: 0;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    .header {
+        padding: 7%;
+        border-radius: 10px;
+    }
+
+    .header h1 {
+        font-size: 80px;
+        color: teal;
+    }
+
+    .header h2 {
+        font-size: 30px;
+    }
+    #section-1 {
+        background-color: #f5eef5;
+    }
+    #section-1 h1 {
+        font-size: 4.5vw;
+        color: grey;
+        }
+        #section-1 h2 {
+        font-size: 3vw;
+        }
+        #section-1 h3 {
+        font-size: 2vw;
+        }
+
+    #section-2 {
+            background-color: #faf5f3;
+        }
+    #section-2 h1 {
+        font-size: 4.5vw;
+        color: grey;
+        }
+        #section-2 h2 {
+        font-size: 3vw;
+        }
+        #section-2 h3 {
+        font-size: 2vw;
+        }
+
+        #section-3 {
+            background-color: #f2f9f8;
+        }
+    #section-3 h1 {
+        font-size: 4.5vw;
+        color: grey;
+        }
+        #section-3 h2 {
+        font-size: 3vw;
+        }
+        #section-3 h3 {
+        font-size: 2vw;
+        }
+    
+        #section-4 {
+        background-color: #000000;
+        color: white;
+        width: 100%;
+        }
+
+    #section-4 p {
+    font-size: 9px;
+    }
+
+    #section-4 h1 {
+        font-size: 20px;
+    }
+
+    #section-4 b {
+        font-size: 10px;
+    }
+
+    .one-column {
+        width: 100%;
+        padding: 7%;
+        padding-bottom: 0%;
+    }
+    
+    .two-column {
+        width: 50%;
+        padding: 7%;
+        float: left;
+    }
+
+    .two-column img{
+        width: 100%;
+    }
+
+    .four-column {
+        width: 25%;
+        padding: 7%;
+        float: left;
+    }
+    
+    @media screen and (max-width:700px) {
+
+        .header h1 {
+            font-size: 40px;
+        }
+
+        .header h2 {
+            font-size: 15px;
+        }
+        .two-column {
+            width: 100%;
+        }
+
+        .two-column img {
+            width: 90%;
+        }
+
+        .four-column {
+            width: 50%;
+        }
+
+        #section-1 h1 {
+            font-size: 6vw;
+            color: grey;
+            }
+            #section-1 h2 {
+            font-size: 5vw;
+            }
+            #section-1 h3 {
+            font-size: 4vw;
+            }
+        
+        #section-2 h1 {
+            font-size: 6vw;
+            color: grey;
+            }
+            #section-2 h2 {
+            font-size: 5vw;
+            }
+            #section-2 h3 {
+            font-size: 4vw;
+            }
+
+        #section-3 h1 {
+            font-size: 6vw;
+            color: grey;
+            }
+            #section-3 h2 {
+            font-size: 5vw;
+            }
+            #section-3 h3 {
+            font-size: 4vw;
+            }
+        /* Responsive layout */
+        /* la clase two-column ha de tener ancho de 100% */
+        /* la clase four-column ha de tener ancho de 50% */
+        /* la clase h1 ha de tener tamaño de fuente de 6vw */
+        /* la clase h2 ha de tener tamaño de fuente de 5vw */
+        /* la clase h3 ha de tener tamaño de fuente de 4vw */
+        /* ...otros ajustes...... */
+    }
