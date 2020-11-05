@@ -32,50 +32,49 @@
     #section-1 h1 {
         font-size: 4.5vw;
         color: grey;
-        }
-        #section-1 h2 {
+    }
+    #section-1 h2 {
         font-size: 3vw;
-        }
-        #section-1 h3 {
+    }
+    #section-1 h3 {
         font-size: 2vw;
-        }
+    }
 
     #section-2 {
-            background-color: #faf5f3;
-        }
+        background-color: #faf5f3;
+    }
     #section-2 h1 {
         font-size: 4.5vw;
         color: grey;
-        }
-        #section-2 h2 {
+    }
+    #section-2 h2 {
         font-size: 3vw;
-        }
-        #section-2 h3 {
+    }
+    #section-2 h3 {
         font-size: 2vw;
-        }
-
-        #section-3 {
-            background-color: #f2f9f8;
-        }
+    }
+    #section-3 {
+        background-color: #f2f9f8;
+    }
     #section-3 h1 {
         font-size: 4.5vw;
         color: grey;
-        }
-        #section-3 h2 {
+    }
+    #section-3 h2 {
         font-size: 3vw;
-        }
-        #section-3 h3 {
+    }
+    #section-3 h3 {
         font-size: 2vw;
-        }
+    }
     
-        #section-4 {
+    #section-4 {
         background-color: #000000;
         color: white;
         width: 100%;
-        }
+    }
 
     #section-4 p {
-    font-size: 9px;
+        font-size: 9px;
     }
 
     #section-4 h1 {
@@ -132,35 +131,35 @@
         #section-1 h1 {
             font-size: 6vw;
             color: grey;
-            }
+        }
             #section-1 h2 {
             font-size: 5vw;
-            }
+        }
             #section-1 h3 {
             font-size: 4vw;
-            }
+        }
         
         #section-2 h1 {
             font-size: 6vw;
             color: grey;
-            }
-            #section-2 h2 {
+        }
+        #section-2 h2 {
             font-size: 5vw;
-            }
-            #section-2 h3 {
+        }
+        #section-2 h3 {
             font-size: 4vw;
-            }
+        }
 
         #section-3 h1 {
             font-size: 6vw;
             color: grey;
-            }
-            #section-3 h2 {
+        }
+        #section-3 h2 {
             font-size: 5vw;
-            }
-            #section-3 h3 {
+        }
+        #section-3 h3 {
             font-size: 4vw;
-            }
+        }
         /* Responsive layout */
         /* la clase two-column ha de tener ancho de 100% */
         /* la clase four-column ha de tener ancho de 50% */
